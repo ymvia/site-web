@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exposition - Dédal des couleurs</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navigation">
+      <h1>Dédal des couleurs</h1>
+      <button class="openMenu" type="button">
+        <span class="sr-only">Ouvrir le menu</span>
+        <svg
+          class="burger-menu"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 80 60"
+          width="1em"
+          height="0.7em"
+        >
+          <rect fill="currentColor" y="10" width="100" height="3" rx="5"></rect>
+          <rect fill="currentColor" y="30" width="100" height="3" rx="5"></rect>
+          <rect fill="currentColor" y="50" width="100" height="3" rx="0"></rect>
+        </svg>
+      </button>
+    </header>
+    <nav class="nav-screen">
+      <div class="nav-screen__layer">
+        <button class="closeMenu" type="button">
+          <span class="sr-only">Fermer le menu</span>
+          <svg
+            stroke="currentColor"
+            fill="currentColor"
+            stroke-width="0"
+            version="1.1"
+            viewBox="0 0 17 17"
+            height="1em"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g></g>
+            <path
+              d="M9.207 8.5l6.646 6.646-0.707 0.707-6.646-6.646-6.646 6.646-0.707-0.707 6.646-6.646-6.647-6.646 0.707-0.707 6.647 6.646 6.646-6.646 0.707 0.707-6.646 6.646z"
+            ></path>
+          </svg>
+        </button>
+      </div>
+      <div class="nav-screen__links">
+        <a href="/">Accueil</a>
+        <a href="/exposition.html">Exposition</a>
+        <a href="/ventes.html">Ventes</a>
+        <a href="/galerie.html">Galerie</a
+        ><a href="/nosArtistes.html">Nos artistes</a
+        ><a href="/contact.html">Contact et Localisation</a>
+      </div>
+    </nav>
+    <main>
+      <!-- <section class="page"> -->
+      <div class="page__inner">
+        <p class="page__inner__introduction">
+          <span class="page__inner__introduction--accent">Bienvenue</span>
+          dans l'univers des expositions de notre galerie, où chaque œuvre
+          raconte une histoire unique.
+        </p>
+        <img
+          class="image-wide"
+          src="/images/gallerie.jpeg.jpg"
+          alt="Gelerie Bienvenue"
+        />
+        <p>
+          Nos expositions sont bien plus qu'une simple présentation d'art ;
+          elles sont une expérience sensorielle et intellectuelle. Chaque
+          artiste exposé apporte une nouvelle perspective, qu'il s'agisse
+          d'artistes émergents, locaux ou internationaux, qui bousculent les
+          codes et repoussent les frontières de l'expression artistique. Ici, la
+          diversité des techniques et des sensibilités se mêle pour créer un
+          dialogue entre le public et les œuvres.
+        </p>
+      </div>
+      <div class="page__inner--normal">
+        <h2>Ce que vous allez découvrir :</h2>
+        <ul class="page__inner__list">
+          <li>
+            <p>
+              <span>Expositions en cours :</span>
+              Parcourez les œuvres actuellement présentées dans notre galerie.
+              Peintures, sculptures, photographies et installations
+              contemporaines se côtoient dans une mise en scène pensée pour
+              révéler toute la force et la subtilité des créations.
+            </p>
+          </li>
+          <li>
+            <p>
+              <span>À venir :</span>
+              Ne manquez pas nos prochaines expositions ! Retrouvez les dates et
+              détails des futurs événements où nous dévoilerons de nouveaux
+              talents et des projets artistiques audacieux.
+            </p>
+          </li>
+          <li>
+            <p>
+              <span>Expositions passées :</span>
+              Découvrez les archives de nos précédentes expositions, revivez les
+              temps forts et explorez les œuvres marquantes qui ont fait vibrer
+              notre espace.
+            </p>
+          </li>
+        </ul>
+        <h2>Nos horaires & infos pratiques :</h2>
+        <ul class="page__inner__list">
+          <li>
+            <p>
+              <span>Horaires d'ouverture : </span>
+              Nous vous accueillons du mardi au dimanche, de 10h à 18h.
+            </p>
+          </li>
+          <li>
+            <p>
+              <span>Adresse : </span>
+              Située au cœur de Paris, notre galerie est facilement accessible
+              en transports en commun et propose un environnement convivial et
+              inspirant.
+            </p>
+          </li>
+          <li>
+            <p>Entrée libre ou sur réservation pour certains événements.</p>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

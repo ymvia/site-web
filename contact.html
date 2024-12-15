@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Accueil - Dédal des couleurs</title>
+    <title>Contact - Dédal des couleurs</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -54,32 +54,44 @@
         ><a href="/contact.html">Contact et Localisation</a>
       </div>
     </nav>
-    <main class="accueil-main">
-      <div class="page__content">
-        <div class="hero">
-          <p>
-            Explorez une collection unique d'œuvres. <br />
-            Notre galerie vous offre une immersion dans un univers où les
-            émotions et les couleurs prennent vie à travers l'art.
-          </p>
-        </div>
-        <div class="menu_pages">
-          <a href="/exposition.html" class="menu_pages__item">
-            <h2>Exposition</h2>
-            <img src="/images/gallerie.jpeg.jpg" alt="Exposition" />
-          </a>
-          <a href="/ventes.html" class="menu_pages__item">
-            <h2>Ventes</h2>
-            <img src="/images/vente.jpeg.jpg" alt="Vente" />
-          </a>
-          <a href="/galerie.html" class="menu_pages__item">
-            <h2>Galerie</h2>
-            <img src="/images/gallerie ext.png" alt="Galerie" />
-          </a>
-        </div>
-      </div>
-    </main>
 
+    <main>
+      <section id="contact">
+        <div class="page__inner--normal contact-form page-container">
+          <h1>CONTACTEZ-NOUS</h1>
+          <label class="sr-only" for="nom">Nom</label>
+          <input id="nom" placeholder="Votre nom" type="text" />
+          <label class="sr-only" for="email">Email</label>
+          <input id="email" placeholder="Votre mail" type="email" />
+          <label class="sr-only" for="message">Message</label>
+          <textarea id="message" placeholder="Votre message..."></textarea>
+        </div>
+      </section>
+      <section id="localisation" class="page">
+        <div class="page__inner--normal">
+          <h2 class="page-title">Où nous trouver?</h2>
+          <div class="coordinates">
+            <div>
+              <span>67 rue de la verrerie </span>
+              <span>75004 Paris</span>
+            </div>
+            <div>
+              <img src="/images/maps.png" alt="Notre localisation" />
+            </div>
+            <div>
+              <span>Horaires</span>
+              <ul>
+                <li>Mardi : 11:00 - 19:00</li>
+                <li>Mercredi : 11:00 - 19:00</li>
+                <li>Jeudi : 11:00 - 19:00</li>
+                <li>Vendredi : 11:00 - 19:00</li>
+                <li>Samedi : 11:00 - 19:00</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
