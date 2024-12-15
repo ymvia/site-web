@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nos artistes - Dédal des couleurs</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navigation">
+      <h1>Dédal des couleurs</h1>
+      <button class="openMenu" type="button">
+        <span class="sr-only">Ouvrir le menu</span>
+        <svg
+          class="burger-menu"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 80 60"
+          width="1em"
+          height="0.7em"
+        >
+          <rect fill="currentColor" y="10" width="100" height="3" rx="5"></rect>
+          <rect fill="currentColor" y="30" width="100" height="3" rx="5"></rect>
+          <rect fill="currentColor" y="50" width="100" height="3" rx="0"></rect>
+        </svg>
+      </button>
+    </header>
+    <nav class="nav-screen">
+      <div class="nav-screen__layer">
+        <button class="closeMenu" type="button">
+          <span class="sr-only">Fermer le menu</span>
+          <svg
+            stroke="currentColor"
+            fill="currentColor"
+            stroke-width="0"
+            version="1.1"
+            viewBox="0 0 17 17"
+            height="1em"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g></g>
+            <path
+              d="M9.207 8.5l6.646 6.646-0.707 0.707-6.646-6.646-6.646 6.646-0.707-0.707 6.646-6.646-6.647-6.646 0.707-0.707 6.647 6.646 6.646-6.646 0.707 0.707-6.646 6.646z"
+            ></path>
+          </svg>
+        </button>
+      </div>
+      <div class="nav-screen__links">
+        <a href="/">Accueil</a>
+        <a href="/exposition.html">Exposition</a>
+        <a href="/ventes.html">Ventes</a>
+        <a href="/galerie.html">Galerie</a
+        ><a href="/nosArtistes.html">Nos artistes</a
+        ><a href="/contact.html">Contact et Localisation</a>
+      </div>
+    </nav>
+
+    <main>
+      <div class="page__inner--normal">
+        <h2 class="page-title">Les Artistes que nous représentons</h2>
+        <p class="page-description">
+          Nous avons le privilège de collaborer avec des artistes talentueux,
+          chacun ayant un univers singulier à explorer. Vous découvrirez ici des
+          artistes qui, à travers leurs œuvres, capturent l’essence de
+          l’humanité, de la nature ou de l’abstraction, avec des techniques
+          variées allant du réalisme minutieux à l’art conceptuel.
+        </p>
+        <div>
+          <p class="page-description">
+            Parmi les artistes que nous représentons, vous trouverez :
+          </p>
+          <div class="artist-description">
+            <img src="/images/Client 1.jpg" alt="Clara Dwechvak" />
+            <p>
+              Âgée de 32 ans, Clara Dwechvak est diplômée des Beaux-Arts et vit
+              à Paris. Elle a exposé dans plusieurs galeries locales et a reçu
+              des prix pour ses œuvres. Sa citation favorite : "L'art lave notre
+              âme de la poussière du quotidien." - Pablo Picasso
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        style="--url: url(images/couverture.jpg); --h: 15vh"
+        class="deco"
+      ></div>
+      <div class="artist-description page__inner--normal">
+        <img src="/images/client 3.jpeg.jpg" alt="Hugo Delamont" />
+        <p>
+          Hugo Delamont réinvente l’impressionnisme en y intégrant la frénésie
+          de la vie urbaine. Il se nourrit du mouvement constant des villes
+          modernes et s’efforce de capturer cette énergie à travers des coups de
+          pinceau dynamiques et des palettes vibrantes. Son art reflète la
+          vitalité et la complexité de la vie quotidienne.
+        </p>
+      </div>
+      <div
+        style="--url: url('images/oeuvre 4.jpeg.jpg'); --h: 30vh"
+        class="deco"
+      ></div>
+      <div class="artist-description page__inner--normal">
+        <img src="/images/Cliente 4.jpg" alt="Sophie Vallet" />
+        <p>
+          Sophie Vallet adopte un style élégant et minimaliste. Son atelier est
+          un espace de calme et de réflexion, où elle s’immerge complètement
+          dans ses créations. Elle travaille chaque détail avec minutie pour
+          s'assurer que ses œuvres soient des fenêtres ouvertes sur l'âme
+          humaine.
+        </p>
+      </div>
+      <div
+        style="--url: url('images/oeuvre 1.jpeg.jpg'); --h: 30vh"
+        class="deco"
+      ></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
