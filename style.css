@@ -1,4 +1,3 @@
-
 body {
   font-family: "Cormorant-Infant", sans-serif;
   line-height: 1.6;
@@ -24,4 +23,23 @@ body {
   align-items: center;
   justify-content: center;
   color: #000;
+}
+
+.menu_pages {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.menu_pages__item {
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  transition: transform 0.3s ease;
+}
+
+.menu_pages__item:hover {
+  transform: scale(1.05);
 }
